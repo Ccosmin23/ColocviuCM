@@ -12,6 +12,10 @@
 		C12720882B5AE3240046E11F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12720872B5AE3240046E11F /* Assets.xcassets */; };
 		C127208C2B5AE3240046E11F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C127208B2B5AE3240046E11F /* Preview Assets.xcassets */; };
 		C12720932B5AE3600046E11F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12720922B5AE3600046E11F /* Launch Screen.storyboard */; };
+		C12720992B5AE4820046E11F /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12720982B5AE4820046E11F /* Onboarding.swift */; };
+		C127209C2B5AE49D0046E11F /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127209B2B5AE49D0046E11F /* Register.swift */; };
+		C127209E2B5AE4A50046E11F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127209D2B5AE4A50046E11F /* Login.swift */; };
+		C12720A02B5AE4AF0046E11F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127209F2B5AE4AF0046E11F /* Map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C12720892B5AE3240046E11F /* ProiectCM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProiectCM.entitlements; sourceTree = "<group>"; };
 		C127208B2B5AE3240046E11F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C12720922B5AE3600046E11F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C12720982B5AE4820046E11F /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		C127209B2B5AE49D0046E11F /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		C127209D2B5AE4A50046E11F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C127209F2B5AE4AF0046E11F /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,8 @@
 				C12720852B5AE3230046E11F /* ContentView.swift */,
 				C12720872B5AE3240046E11F /* Assets.xcassets */,
 				C12720892B5AE3240046E11F /* ProiectCM.entitlements */,
+				C12720942B5AE43E0046E11F /* Flows */,
+				C127209A2B5AE4870046E11F /* Model */,
 				C127208A2B5AE3240046E11F /* Preview Content */,
 			);
 			path = ProiectCM;
@@ -70,6 +80,48 @@
 				C127208B2B5AE3240046E11F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C12720942B5AE43E0046E11F /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				C12720952B5AE44F0046E11F /* Onboarding */,
+				C12720962B5AE4560046E11F /* Authentication */,
+				C12720972B5AE45E0046E11F /* Map */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		C12720952B5AE44F0046E11F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C12720962B5AE4560046E11F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C12720972B5AE45E0046E11F /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		C127209A2B5AE4870046E11F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C12720982B5AE4820046E11F /* Onboarding.swift */,
+				C127209B2B5AE49D0046E11F /* Register.swift */,
+				C127209D2B5AE4A50046E11F /* Login.swift */,
+				C127209F2B5AE4AF0046E11F /* Map.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +195,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12720992B5AE4820046E11F /* Onboarding.swift in Sources */,
+				C127209E2B5AE4A50046E11F /* Login.swift in Sources */,
 				C12720862B5AE3230046E11F /* ContentView.swift in Sources */,
+				C127209C2B5AE49D0046E11F /* Register.swift in Sources */,
+				C12720A02B5AE4AF0046E11F /* Map.swift in Sources */,
 				C12720842B5AE3230046E11F /* ProiectCMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
