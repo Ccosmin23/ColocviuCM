@@ -41,6 +41,8 @@
 		C1C721062B5C349D00F1CCA5 /* ScooterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C721022B5C349D00F1CCA5 /* ScooterSheet.swift */; };
 		C1C721092B5C3B7E00F1CCA5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C721082B5C3B7E00F1CCA5 /* CustomButton.swift */; };
 		C1C7210B2B5C426D00F1CCA5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7210A2B5C426D00F1CCA5 /* API.swift */; };
+		C1C7210D2B5C47DE00F1CCA5 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7210C2B5C47DE00F1CCA5 /* UserResponse.swift */; };
+		C1C721102B5C483D00F1CCA5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C1C7210F2B5C483D00F1CCA5 /* Alamofire */; };
 		C1C877F42B5C0EE900F5CA7E /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C877F32B5C0EE900F5CA7E /* OnboardingViewModel.swift */; };
 		C1C877F62B5C0EFD00F5CA7E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C877F52B5C0EFD00F5CA7E /* OnboardingView.swift */; };
 		C1C877FA2B5C0F2B00F5CA7E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C877F92B5C0F2B00F5CA7E /* LoginView.swift */; };
@@ -93,6 +95,7 @@
 		C1C721032B5C349D00F1CCA5 /* ScooterSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterSheetView.swift; sourceTree = "<group>"; };
 		C1C721082B5C3B7E00F1CCA5 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		C1C7210A2B5C426D00F1CCA5 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C1C7210C2B5C47DE00F1CCA5 /* UserResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
 		C1C877F32B5C0EE900F5CA7E /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		C1C877F52B5C0EFD00F5CA7E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		C1C877F92B5C0F2B00F5CA7E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -110,6 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1C720D22B5C1EAC00F1CCA5 /* SwiftUINavigation in Frameworks */,
+				C1C721102B5C483D00F1CCA5 /* Alamofire in Frameworks */,
 				C1C720D72B5C1ECE00F1CCA5 /* NavigationStack in Frameworks */,
 				C1C878092B5C13B800F5CA7E /* SwiftUIIntrospect in Frameworks */,
 				C1C720D42B5C1EAC00F1CCA5 /* SwiftUINavigationCore in Frameworks */,
@@ -204,6 +208,7 @@
 		C127209A2B5AE4870046E11F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C1C7210C2B5C47DE00F1CCA5 /* UserResponse.swift */,
 				C12720982B5AE4820046E11F /* Onboarding.swift */,
 				C127209B2B5AE49D0046E11F /* Register.swift */,
 				C127209D2B5AE4A50046E11F /* Login.swift */,
@@ -324,6 +329,7 @@
 				C1C720D12B5C1EAC00F1CCA5 /* SwiftUINavigation */,
 				C1C720D32B5C1EAC00F1CCA5 /* SwiftUINavigationCore */,
 				C1C720D62B5C1ECE00F1CCA5 /* NavigationStack */,
+				C1C7210F2B5C483D00F1CCA5 /* Alamofire */,
 			);
 			productName = ProiectCM;
 			productReference = C12720802B5AE3230046E11F /* ProiectCM.app */;
@@ -357,6 +363,7 @@
 				C1C878072B5C13B800F5CA7E /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
 				C1C720D02B5C1EAC00F1CCA5 /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
 				C1C720D52B5C1ECE00F1CCA5 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+				C1C7210E2B5C483D00F1CCA5 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = C12720812B5AE3230046E11F /* Products */;
 			projectDirPath = "";
@@ -398,6 +405,7 @@
 				C1C721042B5C349D00F1CCA5 /* ScooterSheetView.swift in Sources */,
 				C12720862B5AE3230046E11F /* ContentView.swift in Sources */,
 				C1C878022B5C0F7400F5CA7E /* MapView.swift in Sources */,
+				C1C7210D2B5C47DE00F1CCA5 /* UserResponse.swift in Sources */,
 				C1C877FA2B5C0F2B00F5CA7E /* LoginView.swift in Sources */,
 				C1C720EA2B5C282F00F1CCA5 /* Color + Extensions.swift in Sources */,
 				C1C721062B5C349D00F1CCA5 /* ScooterSheet.swift in Sources */,
@@ -660,6 +668,14 @@
 				minimumVersion = 1.0.6;
 			};
 		};
+		C1C7210E2B5C483D00F1CCA5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
 		C1C878072B5C13B800F5CA7E /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/swiftui-introspect.git";
@@ -685,6 +701,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C1C720D52B5C1ECE00F1CCA5 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
 			productName = NavigationStack;
+		};
+		C1C7210F2B5C483D00F1CCA5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1C7210E2B5C483D00F1CCA5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 		C1C878082B5C13B800F5CA7E /* SwiftUIIntrospect */ = {
 			isa = XCSwiftPackageProductDependency;
