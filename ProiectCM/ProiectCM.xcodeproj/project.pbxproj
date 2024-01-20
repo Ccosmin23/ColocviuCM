@@ -16,6 +16,31 @@
 		C127209E2B5AE4A50046E11F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127209D2B5AE4A50046E11F /* Login.swift */; };
 		C12720A02B5AE4AF0046E11F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C127209F2B5AE4AF0046E11F /* Map.swift */; };
 		C1C720CA2B5C1BD500F1CCA5 /* PageNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720C92B5C1BD500F1CCA5 /* PageNavigationView.swift */; };
+		C1C720CD2B5C1D7B00F1CCA5 /* MainCoordinatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720CC2B5C1D7B00F1CCA5 /* MainCoordinatorViewModel.swift */; };
+		C1C720CF2B5C1DA800F1CCA5 /* MainCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720CE2B5C1DA800F1CCA5 /* MainCoordinatorView.swift */; };
+		C1C720D22B5C1EAC00F1CCA5 /* SwiftUINavigation in Frameworks */ = {isa = PBXBuildFile; productRef = C1C720D12B5C1EAC00F1CCA5 /* SwiftUINavigation */; };
+		C1C720D42B5C1EAC00F1CCA5 /* SwiftUINavigationCore in Frameworks */ = {isa = PBXBuildFile; productRef = C1C720D32B5C1EAC00F1CCA5 /* SwiftUINavigationCore */; };
+		C1C720D72B5C1ECE00F1CCA5 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = C1C720D62B5C1ECE00F1CCA5 /* NavigationStack */; };
+		C1C720D92B5C201000F1CCA5 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720D82B5C201000F1CCA5 /* Session.swift */; };
+		C1C720DB2B5C201500F1CCA5 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720DA2B5C201500F1CCA5 /* UserDefault.swift */; };
+		C1C720DD2B5C20AD00F1CCA5 /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720DC2B5C20AD00F1CCA5 /* SelectionView.swift */; };
+		C1C720DF2B5C256600F1CCA5 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720DE2B5C256600F1CCA5 /* LoginResponse.swift */; };
+		C1C720E12B5C256D00F1CCA5 /* RegisterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720E02B5C256D00F1CCA5 /* RegisterResponse.swift */; };
+		C1C720E62B5C263000F1CCA5 /* RateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720E52B5C263000F1CCA5 /* RateResponse.swift */; };
+		C1C720E82B5C282600F1CCA5 /* TextField + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720E72B5C282600F1CCA5 /* TextField + Extensions.swift */; };
+		C1C720EA2B5C282F00F1CCA5 /* Color + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720E92B5C282F00F1CCA5 /* Color + Extensions.swift */; };
+		C1C720EC2B5C283500F1CCA5 /* Font + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720EB2B5C283500F1CCA5 /* Font + Extensions.swift */; };
+		C1C720F22B5C32ED00F1CCA5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720F12B5C32ED00F1CCA5 /* LocationManager.swift */; };
+		C1C720F42B5C333A00F1CCA5 /* ScooterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720F32B5C333A00F1CCA5 /* ScooterResponse.swift */; };
+		C1C720F62B5C33CC00F1CCA5 /* MapAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720F52B5C33CC00F1CCA5 /* MapAnnotations.swift */; };
+		C1C720FB2B5C347000F1CCA5 /* ScooterPopUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720F82B5C347000F1CCA5 /* ScooterPopUpViewModel.swift */; };
+		C1C720FC2B5C347000F1CCA5 /* ScooterPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720F92B5C347000F1CCA5 /* ScooterPopUp.swift */; };
+		C1C720FD2B5C347000F1CCA5 /* ScooterPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C720FA2B5C347000F1CCA5 /* ScooterPopUpView.swift */; };
+		C1C721042B5C349D00F1CCA5 /* ScooterSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C721032B5C349D00F1CCA5 /* ScooterSheetView.swift */; };
+		C1C721052B5C349D00F1CCA5 /* ScooterSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C721012B5C349D00F1CCA5 /* ScooterSheetViewModel.swift */; };
+		C1C721062B5C349D00F1CCA5 /* ScooterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C721022B5C349D00F1CCA5 /* ScooterSheet.swift */; };
+		C1C721092B5C3B7E00F1CCA5 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C721082B5C3B7E00F1CCA5 /* CustomButton.swift */; };
+		C1C7210B2B5C426D00F1CCA5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C7210A2B5C426D00F1CCA5 /* API.swift */; };
 		C1C877F42B5C0EE900F5CA7E /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C877F32B5C0EE900F5CA7E /* OnboardingViewModel.swift */; };
 		C1C877F62B5C0EFD00F5CA7E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C877F52B5C0EFD00F5CA7E /* OnboardingView.swift */; };
 		C1C877FA2B5C0F2B00F5CA7E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C877F92B5C0F2B00F5CA7E /* LoginView.swift */; };
@@ -42,6 +67,32 @@
 		C127209D2B5AE4A50046E11F /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		C127209F2B5AE4AF0046E11F /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		C1C720C92B5C1BD500F1CCA5 /* PageNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageNavigationView.swift; sourceTree = "<group>"; };
+		C1C720CC2B5C1D7B00F1CCA5 /* MainCoordinatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorViewModel.swift; sourceTree = "<group>"; };
+		C1C720CE2B5C1DA800F1CCA5 /* MainCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorView.swift; sourceTree = "<group>"; };
+		C1C720D82B5C201000F1CCA5 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		C1C720DA2B5C201500F1CCA5 /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		C1C720DC2B5C20AD00F1CCA5 /* SelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		C1C720DE2B5C256600F1CCA5 /* LoginResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		C1C720E02B5C256D00F1CCA5 /* RegisterResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterResponse.swift; sourceTree = "<group>"; };
+		C1C720E52B5C263000F1CCA5 /* RateResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RateResponse.swift; sourceTree = "<group>"; };
+		C1C720E72B5C282600F1CCA5 /* TextField + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextField + Extensions.swift"; sourceTree = "<group>"; };
+		C1C720E92B5C282F00F1CCA5 /* Color + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color + Extensions.swift"; sourceTree = "<group>"; };
+		C1C720EB2B5C283500F1CCA5 /* Font + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font + Extensions.swift"; sourceTree = "<group>"; };
+		C1C720ED2B5C283C00F1CCA5 /* BaiJamjuree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Bold.ttf"; sourceTree = "<group>"; };
+		C1C720EE2B5C283C00F1CCA5 /* BaiJamjuree-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Medium.ttf"; sourceTree = "<group>"; };
+		C1C720EF2B5C283C00F1CCA5 /* BaiJamjuree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Regular.ttf"; sourceTree = "<group>"; };
+		C1C720F02B5C283C00F1CCA5 /* BaiJamjuree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-SemiBold.ttf"; sourceTree = "<group>"; };
+		C1C720F12B5C32ED00F1CCA5 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C1C720F32B5C333A00F1CCA5 /* ScooterResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScooterResponse.swift; sourceTree = "<group>"; };
+		C1C720F52B5C33CC00F1CCA5 /* MapAnnotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotations.swift; sourceTree = "<group>"; };
+		C1C720F82B5C347000F1CCA5 /* ScooterPopUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScooterPopUpViewModel.swift; sourceTree = "<group>"; };
+		C1C720F92B5C347000F1CCA5 /* ScooterPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScooterPopUp.swift; sourceTree = "<group>"; };
+		C1C720FA2B5C347000F1CCA5 /* ScooterPopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScooterPopUpView.swift; sourceTree = "<group>"; };
+		C1C721012B5C349D00F1CCA5 /* ScooterSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterSheetViewModel.swift; sourceTree = "<group>"; };
+		C1C721022B5C349D00F1CCA5 /* ScooterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterSheet.swift; sourceTree = "<group>"; };
+		C1C721032B5C349D00F1CCA5 /* ScooterSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterSheetView.swift; sourceTree = "<group>"; };
+		C1C721082B5C3B7E00F1CCA5 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C1C7210A2B5C426D00F1CCA5 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		C1C877F32B5C0EE900F5CA7E /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		C1C877F52B5C0EFD00F5CA7E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		C1C877F92B5C0F2B00F5CA7E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -58,7 +109,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C720D22B5C1EAC00F1CCA5 /* SwiftUINavigation in Frameworks */,
+				C1C720D72B5C1ECE00F1CCA5 /* NavigationStack in Frameworks */,
 				C1C878092B5C13B800F5CA7E /* SwiftUIIntrospect in Frameworks */,
+				C1C720D42B5C1EAC00F1CCA5 /* SwiftUINavigationCore in Frameworks */,
 				C1C8780B2B5C13B800F5CA7E /* SwiftUIIntrospect-Dynamic in Frameworks */,
 				C1C8780D2B5C13B800F5CA7E /* SwiftUIIntrospect-Static in Frameworks */,
 			);
@@ -91,7 +145,9 @@
 				C12720832B5AE3230046E11F /* ProiectCMApp.swift */,
 				C12720852B5AE3230046E11F /* ContentView.swift */,
 				C12720892B5AE3240046E11F /* ProiectCM.entitlements */,
+				C1C720CB2B5C1D5B00F1CCA5 /* Coordinators */,
 				C12720942B5AE43E0046E11F /* Flows */,
+				C1C720E42B5C258000F1CCA5 /* API */,
 				C127209A2B5AE4870046E11F /* Model */,
 				C1C720792B5C159900F1CCA5 /* Utils */,
 				C127208A2B5AE3240046E11F /* Preview Content */,
@@ -113,6 +169,7 @@
 				C12720952B5AE44F0046E11F /* Onboarding */,
 				C12720962B5AE4560046E11F /* Authentication */,
 				C12720972B5AE45E0046E11F /* Map */,
+				C1C720F72B5C345800F1CCA5 /* Scooter */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
@@ -158,9 +215,72 @@
 		C1C720792B5C159900F1CCA5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C1C721082B5C3B7E00F1CCA5 /* CustomButton.swift */,
+				C1C720F52B5C33CC00F1CCA5 /* MapAnnotations.swift */,
+				C1C720F32B5C333A00F1CCA5 /* ScooterResponse.swift */,
+				C1C720F12B5C32ED00F1CCA5 /* LocationManager.swift */,
+				C1C720ED2B5C283C00F1CCA5 /* BaiJamjuree-Bold.ttf */,
+				C1C720EE2B5C283C00F1CCA5 /* BaiJamjuree-Medium.ttf */,
+				C1C720EF2B5C283C00F1CCA5 /* BaiJamjuree-Regular.ttf */,
+				C1C720F02B5C283C00F1CCA5 /* BaiJamjuree-SemiBold.ttf */,
+				C1C720EB2B5C283500F1CCA5 /* Font + Extensions.swift */,
+				C1C720E92B5C282F00F1CCA5 /* Color + Extensions.swift */,
+				C1C720E72B5C282600F1CCA5 /* TextField + Extensions.swift */,
+				C1C720E52B5C263000F1CCA5 /* RateResponse.swift */,
+				C1C720E02B5C256D00F1CCA5 /* RegisterResponse.swift */,
+				C1C720DE2B5C256600F1CCA5 /* LoginResponse.swift */,
+				C1C720DC2B5C20AD00F1CCA5 /* SelectionView.swift */,
+				C1C720D82B5C201000F1CCA5 /* Session.swift */,
+				C1C720DA2B5C201500F1CCA5 /* UserDefault.swift */,
 				C1C720C92B5C1BD500F1CCA5 /* PageNavigationView.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		C1C720CB2B5C1D5B00F1CCA5 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				C1C720CE2B5C1DA800F1CCA5 /* MainCoordinatorView.swift */,
+				C1C720CC2B5C1D7B00F1CCA5 /* MainCoordinatorViewModel.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		C1C720E42B5C258000F1CCA5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C1C7210A2B5C426D00F1CCA5 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C1C720F72B5C345800F1CCA5 /* Scooter */ = {
+			isa = PBXGroup;
+			children = (
+				C1C721072B5C34A800F1CCA5 /* ScooterSheet */,
+				C1C720FE2B5C347A00F1CCA5 /* Scooter pop-up */,
+			);
+			path = Scooter;
+			sourceTree = "<group>";
+		};
+		C1C720FE2B5C347A00F1CCA5 /* Scooter pop-up */ = {
+			isa = PBXGroup;
+			children = (
+				C1C720F92B5C347000F1CCA5 /* ScooterPopUp.swift */,
+				C1C720FA2B5C347000F1CCA5 /* ScooterPopUpView.swift */,
+				C1C720F82B5C347000F1CCA5 /* ScooterPopUpViewModel.swift */,
+			);
+			name = "Scooter pop-up";
+			sourceTree = "<group>";
+		};
+		C1C721072B5C34A800F1CCA5 /* ScooterSheet */ = {
+			isa = PBXGroup;
+			children = (
+				C1C721022B5C349D00F1CCA5 /* ScooterSheet.swift */,
+				C1C721032B5C349D00F1CCA5 /* ScooterSheetView.swift */,
+				C1C721012B5C349D00F1CCA5 /* ScooterSheetViewModel.swift */,
+			);
+			name = ScooterSheet;
 			sourceTree = "<group>";
 		};
 		C1C877F72B5C0F0D00F5CA7E /* Login */ = {
@@ -201,6 +321,9 @@
 				C1C878082B5C13B800F5CA7E /* SwiftUIIntrospect */,
 				C1C8780A2B5C13B800F5CA7E /* SwiftUIIntrospect-Dynamic */,
 				C1C8780C2B5C13B800F5CA7E /* SwiftUIIntrospect-Static */,
+				C1C720D12B5C1EAC00F1CCA5 /* SwiftUINavigation */,
+				C1C720D32B5C1EAC00F1CCA5 /* SwiftUINavigationCore */,
+				C1C720D62B5C1ECE00F1CCA5 /* NavigationStack */,
 			);
 			productName = ProiectCM;
 			productReference = C12720802B5AE3230046E11F /* ProiectCM.app */;
@@ -232,6 +355,8 @@
 			mainGroup = C12720772B5AE3220046E11F;
 			packageReferences = (
 				C1C878072B5C13B800F5CA7E /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
+				C1C720D02B5C1EAC00F1CCA5 /* XCRemoteSwiftPackageReference "swiftui-navigation" */,
+				C1C720D52B5C1ECE00F1CCA5 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
 			);
 			productRefGroup = C12720812B5AE3230046E11F /* Products */;
 			projectDirPath = "";
@@ -260,21 +385,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C720FC2B5C347000F1CCA5 /* ScooterPopUp.swift in Sources */,
+				C1C720FB2B5C347000F1CCA5 /* ScooterPopUpViewModel.swift in Sources */,
 				C1C877FE2B5C0F4E00F5CA7E /* RegisterView.swift in Sources */,
+				C1C720E12B5C256D00F1CCA5 /* RegisterResponse.swift in Sources */,
 				C12720992B5AE4820046E11F /* Onboarding.swift in Sources */,
+				C1C720FD2B5C347000F1CCA5 /* ScooterPopUpView.swift in Sources */,
+				C1C720F62B5C33CC00F1CCA5 /* MapAnnotations.swift in Sources */,
 				C127209E2B5AE4A50046E11F /* Login.swift in Sources */,
+				C1C7210B2B5C426D00F1CCA5 /* API.swift in Sources */,
+				C1C721092B5C3B7E00F1CCA5 /* CustomButton.swift in Sources */,
+				C1C721042B5C349D00F1CCA5 /* ScooterSheetView.swift in Sources */,
 				C12720862B5AE3230046E11F /* ContentView.swift in Sources */,
 				C1C878022B5C0F7400F5CA7E /* MapView.swift in Sources */,
 				C1C877FA2B5C0F2B00F5CA7E /* LoginView.swift in Sources */,
+				C1C720EA2B5C282F00F1CCA5 /* Color + Extensions.swift in Sources */,
+				C1C721062B5C349D00F1CCA5 /* ScooterSheet.swift in Sources */,
 				C127209C2B5AE49D0046E11F /* Register.swift in Sources */,
+				C1C720E62B5C263000F1CCA5 /* RateResponse.swift in Sources */,
+				C1C721052B5C349D00F1CCA5 /* ScooterSheetViewModel.swift in Sources */,
 				C12720A02B5AE4AF0046E11F /* Map.swift in Sources */,
+				C1C720D92B5C201000F1CCA5 /* Session.swift in Sources */,
 				C1C878002B5C0F6400F5CA7E /* RegisterViewModel.swift in Sources */,
+				C1C720F42B5C333A00F1CCA5 /* ScooterResponse.swift in Sources */,
+				C1C720EC2B5C283500F1CCA5 /* Font + Extensions.swift in Sources */,
+				C1C720E82B5C282600F1CCA5 /* TextField + Extensions.swift in Sources */,
+				C1C720CF2B5C1DA800F1CCA5 /* MainCoordinatorView.swift in Sources */,
+				C1C720CD2B5C1D7B00F1CCA5 /* MainCoordinatorViewModel.swift in Sources */,
 				C1C877F62B5C0EFD00F5CA7E /* OnboardingView.swift in Sources */,
 				C1C720CA2B5C1BD500F1CCA5 /* PageNavigationView.swift in Sources */,
 				C1C877F42B5C0EE900F5CA7E /* OnboardingViewModel.swift in Sources */,
 				C1C878042B5C0F8900F5CA7E /* MapViewModel.swift in Sources */,
+				C1C720DB2B5C201500F1CCA5 /* UserDefault.swift in Sources */,
 				C1C877FC2B5C0F3800F5CA7E /* LoginViewModel.swift in Sources */,
+				C1C720F22B5C32ED00F1CCA5 /* LocationManager.swift in Sources */,
 				C12720842B5AE3230046E11F /* ProiectCMApp.swift in Sources */,
+				C1C720DD2B5C20AD00F1CCA5 /* SelectionView.swift in Sources */,
+				C1C720DF2B5C256600F1CCA5 /* LoginResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +644,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C1C720D02B5C1EAC00F1CCA5 /* XCRemoteSwiftPackageReference "swiftui-navigation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swiftui-navigation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		C1C720D52B5C1ECE00F1CCA5 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.6;
+			};
+		};
 		C1C878072B5C13B800F5CA7E /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/swiftui-introspect.git";
@@ -508,6 +671,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C1C720D12B5C1EAC00F1CCA5 /* SwiftUINavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1C720D02B5C1EAC00F1CCA5 /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = SwiftUINavigation;
+		};
+		C1C720D32B5C1EAC00F1CCA5 /* SwiftUINavigationCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1C720D02B5C1EAC00F1CCA5 /* XCRemoteSwiftPackageReference "swiftui-navigation" */;
+			productName = SwiftUINavigationCore;
+		};
+		C1C720D62B5C1ECE00F1CCA5 /* NavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C1C720D52B5C1ECE00F1CCA5 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
+			productName = NavigationStack;
+		};
 		C1C878082B5C13B800F5CA7E /* SwiftUIIntrospect */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C1C878072B5C13B800F5CA7E /* XCRemoteSwiftPackageReference "swiftui-introspect" */;

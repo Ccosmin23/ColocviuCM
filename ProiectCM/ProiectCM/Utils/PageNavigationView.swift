@@ -1,8 +1,8 @@
 //
 //  PageNavigationView.swift
-//  MoveApp
+//  ProiectCM
 //
-//  Created by Cosmin Cosan on 14.10.2021.
+//  Created by Cosmin Cosan - tapptitude on 20.01.2024.
 //
 
 import SwiftUI

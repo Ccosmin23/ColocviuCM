@@ -11,7 +11,7 @@ import SwiftUI
 struct ProiectCMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainCoordinatorView()
         }
     }
 }

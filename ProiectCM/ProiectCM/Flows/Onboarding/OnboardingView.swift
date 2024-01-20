@@ -43,13 +43,13 @@ struct OnboardingView: View {
                 onFinished(true)
             }
         } label: {
-//            CustomButton(width: 153,
-//                         height: 56,
-//                         text: "Get started",
-//                         icon: Image("forwardButtonWhite"),
-//                         textColor: Color.white,
-//                         background: Color.cerise,
-//                         strokeColor: Color.cerise)
+            CustomButton(width: 153,
+                         height: 56,
+                         text: "Get started",
+                         icon: Image("forwardButtonWhite"),
+                         textColor: Color.white,
+                         background: Color.cerise,
+                         strokeColor: Color.cerise)
         }
     }
     
@@ -57,12 +57,12 @@ struct OnboardingView: View {
         Button {
             viewModel.changeToNextTab()
         } label: {
-//            CustomButton(width: 100,
-//                         height: 56,
-//                         text: "Next",
-//                         textColor: Color.white,
-//                         background: Color.cerise,
-//                         strokeColor: Color.cerise)
+            CustomButton(width: 100,
+                         height: 56,
+                         text: "Next",
+                         textColor: Color.white,
+                         background: Color.cerise,
+                         strokeColor: Color.cerise)
         }
     }
 }
@@ -102,14 +102,14 @@ struct OnboardingCurrentView: View {
     
     var title: some View {
         Text(page.title)
-//            .font(Font.Primary.bold.with(size: 32))
-//            .foregroundColor(Color.russianViolet)
+            .font(Font.Primary.bold.with(size: 32))
+            .foregroundColor(Color.russianViolet)
     }
     
     var description: some View {
         Text(page.description)
-//            .font(.Primary.regular.with(size: 16))
-//            .foregroundColor(Color.russianViolet)
+            .font(.Primary.regular.with(size: 16))
+            .foregroundColor(Color.russianViolet)
             .padding(.top, 5)
     }
     
@@ -128,8 +128,8 @@ struct OnboardingCurrentView: View {
             }
         }, label: {
             Text("Skip")
-//                .font(Font.Primary.regular.with(size: 14))
-//                .foregroundColor(Color.heliotropeGray)
+                .font(Font.Primary.regular.with(size: 14))
+                .foregroundColor(Color.heliotropeGray)
                 .background(Color.white)
         })
     }
