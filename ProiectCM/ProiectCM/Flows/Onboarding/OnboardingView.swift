@@ -29,7 +29,7 @@ struct OnboardingView: View {
     
     var baseContent: some View {
         HStack {
-//            PageNavigationView(numberOfPages: 5, currentIndex: viewModel.selectedTab.index)
+            PageNavigationView(numberOfPages: 5, currentIndex: viewModel.selectedTab.index)
             Spacer()
             viewModel.selectedTab.index == Onboarding.pages.last?.index ? AnyView(getStartedButton) : AnyView(nextButton)
         }
