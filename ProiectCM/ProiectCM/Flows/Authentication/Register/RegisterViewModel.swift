@@ -32,7 +32,27 @@ class RegisterViewModel: ObservableObject {
     
     func registerRequest(callback: @escaping (Bool) -> Void) {
         let registerModel = RegisterModel(email: self.email, username: self.username, password: self.password)
-
+        
+        DispatchQueue.main.async {
+            self.spinnerEnabled = true
+        }
+        API.register(requestParameters: registerModel) { [weak self] result in
+            switch result {
+            case .success(let registerResponse):
+                if registerResponse.status != "success" {
+//                    ErrorDisplay.show(error: registerResponse.message)
+                } else {
+                    guard let token = registerResponse.token, let username = registerResponse.user?.username, let email = registerResponse.user?.email else { return }
+                    Session.saveSession(token: token)
+                    Session.username = username
+                    Session.email = email
+                    callback(true)
+                }
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+            self?.spinnerEnabled = false
+        }
     }
     
     func showAndHidePassword() {

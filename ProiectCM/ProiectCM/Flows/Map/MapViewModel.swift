@@ -46,17 +46,18 @@ class MapViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
     
     func getNearbyScooters() {
         let userLocation = [self._currentLocation.center.latitude, self._currentLocation.center.longitude]
-        //        API.getNearbyScooters(userLocation: userLocation) { [weak self] result in
-        //            switch result {
-        //            case .success(let scooterResponseModel):
-        //                if scooterResponseModel.status != "success" {
-        //                    ErrorDisplay.show(error: scooterResponseModel.status)
-        //                }
-        //                self?.allScooters = scooterResponseModel.scooters
-        //            case .failure(let error):
-        //                print(error.localizedDescription)
-        //            }
-        //        }
+        API.getNearbyScooters(userLocation: userLocation) { [weak self] result in
+            switch result {
+            case .success(let scooterResponseModel):
+                if scooterResponseModel.status != "success" {
+//                    ErrorDisplay.show(error: scooterResponseModel.status)
+                }
+                
+                self?.allScooters = scooterResponseModel.scooters
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
     }
     
     func loadScooters() {

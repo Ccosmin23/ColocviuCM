@@ -183,6 +183,8 @@ struct LoginView: View {
                     /// if result is true that means the current user already uploaded a driving license
                     if result {
                         onFinished(OnFinishedType.goToMapView)
+                    } else {
+                        
                     }
                 }
             }, label: {
