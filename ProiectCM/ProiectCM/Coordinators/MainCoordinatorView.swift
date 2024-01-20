@@ -71,12 +71,14 @@ struct MainCoordinatorView: View {
     
     var registerView: some View {
         RegisterView { result in
-            
             viewModel.coordinatorFlowState = .arrivedAtAuthentication(.arrivedAtRegister)
            
             if result == false {
                 goToLoginView()
+            } else {
+                goToMapView()
             }
+            
         }.tag(CurrentView.authentication)
     }
     

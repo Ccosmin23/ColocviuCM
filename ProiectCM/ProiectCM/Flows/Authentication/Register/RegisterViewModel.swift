@@ -36,6 +36,7 @@ class RegisterViewModel: ObservableObject {
         DispatchQueue.main.async {
             self.spinnerEnabled = true
         }
+        
         API.register(requestParameters: registerModel) { [weak self] result in
             switch result {
             case .success(let registerResponse):
@@ -51,7 +52,9 @@ class RegisterViewModel: ObservableObject {
             case .failure(let error):
                 print(error.localizedDescription)
             }
+            
             self?.spinnerEnabled = false
+            callback(true)
         }
     }
     
